@@ -1,0 +1,117 @@
+.services {
+  background-color: #f9fbfb;
+  font-size: 1rem; }
+  .services .services__title {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 2.23rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 7.3rem; }
+  .services .services__title--minor {
+    font-family: "Merriweather", "Arial", serif;
+    font-size: 1.05rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.62);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 7.3rem; }
+  .services .grid {
+    padding-bottom: 6.5rem; }
+    .services .grid .item {
+      margin-bottom: .8rem;
+      height: 22rem;
+      overflow: hidden; }
+      .services .grid .item .item__block {
+        height: 100%;
+        width: 100%; }
+        .services .grid .item .item__block .text {
+          padding: 0 4rem 0 4rem;
+          color: rgba(255, 255, 255, 0.95); }
+          @media only screen and (max-width: 768px) {
+            .services .grid .item .item__block .text {
+              padding: 0 1rem 0 1rem; } }
+          .services .grid .item .item__block .text h2 {
+            padding-top: 9.7rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: "Merriweather", "Arial", serif;
+            letter-spacing: .05em;
+            font-size: 1.1rem; }
+            @media only screen and (max-width: 768px) {
+              .services .grid .item .item__block .text h2 {
+                padding-top: 3rem; } }
+          .services .grid .item .item__block .text p {
+            font-family: "Raleway", "Arial", sans-serif;
+            letter-spacing: .02em;
+            font-size: .9rem;
+            line-height: 1.56; }
+          .services .grid .item .item__block .text a {
+            text-transform: uppercase;
+            font-family: "Raleway", "Arial", sans-serif;
+            color: rgba(255, 255, 255, 0.95);
+            letter-spacing: .04em;
+            font-size: 1rem; }
+    .services .grid .item__block--first {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/home_dietitian_sectionb.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--second {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/img-9.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--third {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/griego3_1x.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--fourth {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/careers-00.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--fifth {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/griego4_1x.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--sixth {
+      background: linear-gradient(rgba(98, 98, 98, 0.7), rgba(98, 98, 98, 0.7)), url("../img/services/blog-3.jpg") 50% 50% no-repeat; }
+    .services .grid .item__block--hidden {
+      width: 100%;
+      height: 100%;
+      background-color: #6df6eb; }
+      .services .grid .item__block--hidden .text {
+        padding: 0 4rem 0 4rem;
+        color: rgba(0, 0, 0, 0.83); }
+        @media only screen and (max-width: 768px) {
+          .services .grid .item__block--hidden .text {
+            padding: 0 1rem 0 1rem; } }
+        .services .grid .item__block--hidden .text h2 {
+          padding-top: 3.5rem;
+          margin-bottom: 1.5rem;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-family: "Merriweather", "Arial", serif;
+          letter-spacing: .05em;
+          font-size: 1.1rem; }
+        .services .grid .item__block--hidden .text p {
+          font-family: "Raleway", "Arial", sans-serif;
+          letter-spacing: .02em;
+          font-size: .9rem;
+          line-height: 1.56;
+          margin-bottom: 4rem; }
+        .services .grid .item__block--hidden .text a {
+          color: rgba(0, 0, 0, 0.83);
+          letter-spacing: .04em;
+          font-size: 1rem; }
+  .services .item:hover .item__block {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all .75s ease-in;
+    -moz-transition: all .75s ease-in;
+    -ms-transition: all .75s ease-in;
+    -o-transition: all .75s ease-in;
+    transition: all .75s ease-in; }
+  .services .no-gutters {
+    margin-right: 0;
+    margin-left: 0; }
+    .services .no-gutters > .col,
+    .services .no-gutters > [class*="col-"] {
+      padding-right: .4rem;
+      padding-left: .4rem; }
+
+/*# sourceMappingURL=services.css.map */

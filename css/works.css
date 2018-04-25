@@ -1,0 +1,25 @@
+.works {
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding-bottom: 5.58rem; }
+  .works .works__title {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 2.23rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 7.6rem; }
+  .works .works__title--minor {
+    font-family: "Merriweather", "Arial", serif;
+    font-size: 1.05rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.62);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 8.9rem; }
+  .works img {
+    margin-bottom: 30px; }
+
+/*# sourceMappingURL=works.css.map */
